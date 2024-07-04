@@ -22,3 +22,6 @@ select * from students where city IN ("vapi");
 select * from students where city NOT IN ("vapi" , "surat");
 select * from students limit 3;
 select * from students limit 1;
+
+select * from students order by city ASC;
+select * from students order by city DESC;

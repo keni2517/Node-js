@@ -44,5 +44,5 @@ select * from SALESMAN_MASTER;
 
 5 -> update CLIENT_MASTERS set City="Banglore" where City="Mumbai";
      update CLIENT_MASTERS set baldua=1000 where baldua=15000;
-    update PRODUCT_MASTER set CostPrice=950 where Description="Trousers";
+     update PRODUCT_MASTER set CostPrice=950 where Description="Trousers";
      update SALESMAN_MASTER set City="pune" where City="mumbai";

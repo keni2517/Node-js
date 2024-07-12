@@ -11,8 +11,7 @@ insert into students values ("keni","kakadiya",15,"surat",45,78,49),
 ("pooja","parmar",23,"vadodra",47,85,46),
 ("nikhil","kalsariya",24,"mumbai",45,78,96),
 ("mansi","vaghasiya",22,"pune",45,75,78),
-("trupti","gajera",25,"pune",42,48,75);
-
+("trupti","gajera",25,"pune",42,48,75);   
 
 select * from students;
 select * from students where maths>30 AND city="surat";
@@ -25,3 +24,5 @@ select * from students limit 1;
 
 select * from students order by city ASC;
 select * from students order by city DESC;
+
+create table clientmaster(firstname varchar(30) not null , lastname varchar(30) not null , )
